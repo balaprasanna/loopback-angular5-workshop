@@ -43,7 +43,7 @@ I'm all done. Running npm install for you to install the required dependencies. 
 
 By the the project is created with some boilerplate codes.
 
-## There is a bug in with `npm install`. It might fails.
+### There is a bug in with `npm install`. It might fails.
 Quick fix, dont worry about it. Try running `npm install` again for few times and it works.
 ```
 npm install --verbose
@@ -53,3 +53,20 @@ npm install --verbose
 So it helps me to actually see if there any activity going on with npm install. 
 If it hangs for long time, `<ctrl + c>` Quit and Try running the `npm install` again.
 
+### Now, lets run the backend to get a sneak peak about the API explorer.
+Run the backend using `node .` on the backend folder
+
+Example
+```
+root@13fb60d0e015:/usr/src/app/backend# ls
+README.md  client  node_modules  package-lock.json  package.json  server
+root@13fb60d0e015:/usr/src/app/backend# node .
+Web server listening at: http://localhost:3000
+Browse your REST API at http://localhost:3000/explorer
+
+```
+
+### Check the API exporer running on localhost:3000/exporer
+[http://localhost:3000/explorer](http://localhost:3000/explorer)
+
+[click here for next stage](loopback02.md)
