@@ -1,0 +1,19 @@
+{
+  "name": "session1_loopback_api_demo",
+  "version": "1.0.0",
+  "description": "This is an app to show how simple it is to build REST APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balaprasanna/loopback-angular5-workshop.git"
+  },
+  "author": "balaprasannav2009@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balaprasanna/loopback-angular5-workshop/issues"
+  },
+  "homepage": "https://github.com/balaprasanna/loopback-angular5-workshop#readme"
+}
