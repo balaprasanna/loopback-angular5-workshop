@@ -101,3 +101,5 @@ Angular:
 
 
 ```
+
+[click here for next stage]('./loopback.md')
