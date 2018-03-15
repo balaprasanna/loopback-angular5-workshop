@@ -8,7 +8,7 @@ Welcome to the workshop
 
 Docker: Pull the node images for the backend.
 ```
-docker pull node
+docker pull balanus/loopback
 ```
 
 Docker: run a local development docker container for loopback
