@@ -43,13 +43,13 @@ I'm all done. Running npm install for you to install the required dependencies. 
 
 By the the project is created with some boilerplate codes.
 
-## Most of the time, npm install might fails.
+## There is a bug in with `npm install`. It might fails.
 Quick fix, dont worry about it. Try running `npm install` again for few times and it works.
 ```
 npm install --verbose
 ```
 
-1. --verbose is to make sure, npm install is doing the right things. Because sometimes, it hangs and you might want to re-run.
+- `--verbose` is to make sure, npm install is doing the right things. Because sometimes, it hangs and you might want to re-run.
 So it helps me to actually see if there any activity going on with npm install. 
 If it hangs for long time, `<ctrl + c>` Quit and Try running the `npm install` again.
 
