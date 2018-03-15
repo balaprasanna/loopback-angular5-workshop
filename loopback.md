@@ -11,7 +11,7 @@ cd backend
 ```
 
 Now we are going to create a loopback project.
-- Type lb and hit <enter> key
+- Type lb and hit `<enter>` key
 ```
 lb 
 ```
