@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mysqldb": {
+    "host": "mysqldb",
+    "port": 3306,
+    "url": "mysql://appuser:supersecret@mysqldb:3306/sampledb",
+    "database": "sampledb",
+    "password": "supersecret",
+    "name": "mysqldb",
+    "user": "appuser",
+    "connector": "mysql"
   }
 }
