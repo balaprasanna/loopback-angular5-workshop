@@ -177,6 +177,47 @@ FYI - You can see that the `relation` is updates with appropriate values.
 
 Let's run the api server again.
 ```
-node .
+root@3da899db6882:/usr/src/app/backend# node .
+Web server listening at: http://localhost:3000
+Browse your REST API at http://localhost:3000/explorer
+
 ```
 Hint: By now , you should know in which folder that you can run this command.
+
+Open the browser, you should be able see some extra API's for both models with `foreign-key`. Thats prety cool right?.
+
+### Exercise 1:
+Test the relationship, by creating few `products` with a `category` id.
+
+Exercise:
+
+```json
+{
+  "name": "Addidas men's alpha original",
+  "brand": "Addidas",
+  "price": 300,
+  "discount": 10,
+  "categoryId": 1
+}
+```
+
+###  Exercise 2:
+Oops. We forget to add an important property to our model.
+- `imageurl` of the product.
+
+Now , Try to add it.
+
+TIPS: use `lb property`
+
+### Exercise 3:
+Prepare your data for the Angular APP
+
+- Create two categories
+- Create 3 products under each category.
+
+Hint: You can go to Lazada, amazon. to get some actucal products and image urls. 
+
+Explore again and learn from it: [API Explorer](http://localhost:3000/explorer)
+
+
+[click here for next stage](loopback05.md)
