@@ -38,5 +38,9 @@
   "Category": {
     "dataSource": "mysqldb",
     "public": true
+  },
+  "Product": {
+    "dataSource": "mysqldb",
+    "public": true
   }
 }

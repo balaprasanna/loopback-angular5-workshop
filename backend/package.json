@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "dbmigrate":"echo 'hello build'",
+    "dbmigrate": "echo 'hello build'",
     "posttest": "npm run lint && nsp check"
   },
   "dependencies": {
