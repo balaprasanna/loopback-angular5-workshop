@@ -1,12 +1,13 @@
-### Lets learn how to add custom API methods (based on business logics) and before & After hooks
+### Lets learn how to add custom API methods (based on business logics)
+### Also, about Before & After hooks
 
 
-#### Before and After Saved Hooks:
+#### 1. Before and After Saved Hooks:
 
-Lets say we have a model `Product`/
+Lets say we have the `Product` model
 - i want to create a computed property and save it in DB.
 - instead of asking the users to compute, u can do this calculation just before u save it into DB.
-- Another example :You can also use this to `update_at` property of any model, if any. 
+- Another example :You can also use this to update any datetime fields like `update_at` property of any model, if any. 
 
 This is a simple use-case to demonstate before & after hooks.
 #### NOTE: For this to work, you should have added `price_dollar` property of the `product` model.
@@ -43,7 +44,7 @@ module.exports = function(product) {
 };
 ```
 
-#### Custom API's.
+#### 2. Custom API's.
 
 This assumes we are building a shopping cart and `product` model is having `no_items_in_inventory` property.
 In such case, if you want to create a custom API method called `check`
@@ -115,3 +116,7 @@ module.exports = function(Product) {
 
 };
 ```
+
+### NOW ITS TIME FOR ANGULAR 5.
+Now we have API's for two models. `category` and `product`. Lets use this api in our Angular APP.
+[click here for next stage](angular5.md)
